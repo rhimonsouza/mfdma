@@ -14,7 +14,7 @@ You can install the package directly from the GitHub repository using pip:
 ```bash
 pip install git+https://github.com/rhimonsouza/mfdma.git
 
-## Citation
+# Citation
 
 If you use the `mfdma` library in your research, please cite the following paper:
 
