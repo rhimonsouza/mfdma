@@ -14,8 +14,10 @@ You can install the package directly from the GitHub repository using pip:
 ```bash
 pip install git+https://github.com/rhimonsouza/mfdma.git
 
-# Citation
+
+## Citation
 
 If you use the `mfdma` library in your research, please cite the following paper:
 
-Gu, G.-F., & Zhou, W.-X. (2010). Detrended moving average algorithm for multifractals. *Physical Review E, 82*(1), 011136. https://doi.org/10.1103/PhysRevE.82.011136
+Gu, G.-F., & Zhou, W.-X. (2010). Detrended moving average algorithm for multifractals.
+*Physical Review E, 82*(1), 011136. https://doi.org/10.1103/PhysRevE.82.011136
