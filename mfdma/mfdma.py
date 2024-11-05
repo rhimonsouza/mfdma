@@ -1,4 +1,4 @@
-import numpy as np
+emimport numpy as np
 
 def width(alpha):
     return float(np.max(alpha) - np.min(alpha))
@@ -113,6 +113,38 @@ def MFDMA_1D(x, n_min, n_max, N, theta, q):
 
 
 def MFDMA_2D(X, n_min, n_max, N, theta, q):
+    """
+    Perform Multifractal Detrended Moving Average Analysis (MFDMA) on 2D data.
+
+    Parameters
+    ----------
+    X : numpy.ndarray
+        2D array representing the time series data to be analyzed.
+    n_min : int
+        Minimum window size for the moving average.
+    n_max : int
+        Maximum window size for the moving average.
+    N : int
+        Number of window sizes between `n_min` and `n_max` to consider.
+    theta : float
+        Parameter controlling the overlap between windows.
+    q : list or numpy.ndarray
+        List of q-order moments used to compute the multifractal spectrum.
+
+    Returns
+    -------
+    n : numpy.ndarray
+        Array of window sizes used in the analysis.
+    Fq : numpy.ndarray
+        Matrix containing the fluctuation functions for each window size and each q value.
+    tau : numpy.ndarray
+        Multifractal scaling exponents, related to the Hurst exponent.
+    alpha : numpy.ndarray
+        Singularity strengths (or Holder exponents) for each q.
+    f : numpy.ndarray
+        Multifractal spectrum (f(alpha)), providing information on the fractal dimensions of the structure.
+    """
+    
     N1, N2 = X.shape
     MIN = np.log10(n_min)
     MAX = np.log10(n_max)
