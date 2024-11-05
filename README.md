@@ -21,9 +21,10 @@ You can install the package directly from the GitHub repository using pip:
 pip install git+https://github.com/rhimonsouza/mfdma.git
 
 #private
-```bash 
-pip install git+https://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@github.com/rhimonsouza/mfdma.git
-´´´
+
+    ```bash
+    pip install git+https://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@github.com/rhimonsouza/mfdma.git
+    ```
 
 ## Usage
 
