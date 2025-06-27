@@ -1,4 +1,4 @@
-emimport numpy as np
+import numpy as np
 
 def width(alpha):
     return float(np.max(alpha) - np.min(alpha))
