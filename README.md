@@ -19,13 +19,7 @@ You can install the package directly from the GitHub repository using pip:
 
 #public
 
-    pip install git+https://github.com/rhimonsouza/mfdma.git
-
-#private
-
-    
-    pip install git+https://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@github.com/rhimonsouza/mfdma.git
-    
+    pip install git+https://github.com/rhimonsouza/mfdma.git    
 
 ## Usage
 
