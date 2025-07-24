@@ -20,7 +20,8 @@ If you use the `mfdma` library in your research, please cite the following thesi
   advisor      = {Medeiros, José Renan de},
   keywords     = {Multifractalidade, Quasares, Lente gravitacional},
   url          = {https://repositorio.ufrn.br/handle/123456789/63964},
-} ```
+}
+
 
 
 ## Features
