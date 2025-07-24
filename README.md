@@ -3,6 +3,30 @@ A Python library for performing 1D and 2D multifractal analysis using the Detren
 
 ## Citation
 
+## 📖 Citation
+
+If you use the `mfdma` library in your research, please cite the following thesis:
+
+📥 **[Download BibTeX file](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/raw/main/citation/cite.bib)**
+
+<details>
+<summary>📄 Click to view BibTeX</summary>
+
+```bibtex
+@phdthesis{souza2025multifractal,
+  author       = {Souza, Rhimon Alves de Assis},
+  title        = {Comportamento multifractal e variabilidade em AGNs: estudo de quasares amplificados por lente gravitacional e análise espectral multibanda},
+  school       = {Universidade Federal do Rio Grande do Norte},
+  year         = {2025},
+  type         = {Tese (Doutorado em Física)},
+  address      = {Natal, Brasil},
+  month        = feb,
+  pages        = {110},
+  advisor      = {Medeiros, José Renan de},
+  keywords     = {Multifractalidade, Quasares, Lente gravitacional},
+  url          = {https://repositorio.ufrn.br/handle/123456789/63964},
+}
+
 If you use the `mfdma` library in your research, please cite the following thesis:
 
 @phdthesis{souza2025multifractal,
